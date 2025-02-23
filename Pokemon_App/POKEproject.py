@@ -12,8 +12,6 @@ if req.status_code == 200:
     print(f"Name is\t\t: {data['name']}")
     print("Abilities")
     for i in data['abilities']:
-        #print(i)
-        #print(i['ability'])
         print(i['ability'] ['name'])
 else:
     print("Pokemon not found")
